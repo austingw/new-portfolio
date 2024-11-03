@@ -5,9 +5,9 @@
 </script>
 
 <div class="flex flex-col items-center justify-start w-full h-full px-8 gap-4">
-	<h1 class="text-[15rem]">austingw</h1>
+	<h1 class="text-[19.5vw]">austingw</h1>
 	<div class="bg-cream w-full h-[1px]"></div>
-	<div class="flex flex-row items-center justify-between w-full">
+	<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between w-full">
 		<p>Austin Williams | Full-stack Software Developer</p>
 		<div class="flex flex-row items-center justify-end gap-2">
 			<GitHub />
