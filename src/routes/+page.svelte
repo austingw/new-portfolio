@@ -1,5 +1,5 @@
 <script lang="ts">
-	import GitHub from '$lib/icons/gh.svelte';
+	import GitHub from '$lib/icons/GitHub.svelte';
 </script>
 
 <div class="flex flex-col items-center justify-start w-full h-full px-8">
