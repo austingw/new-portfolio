@@ -2,7 +2,7 @@
 	import IconWrapper from './IconWrapper.svelte';
 </script>
 
-<IconWrapper url="https://github.com/austingw">
+<IconWrapper url="https://www.linkedin.com/in/austingw/">
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
 		width="24"
