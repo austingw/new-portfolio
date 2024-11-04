@@ -25,6 +25,9 @@
 	.stretch-thin {
 		font-stretch: 75%;
 	}
+	.stretch-light {
+		font-stretch: 87.5%;
+	}
 	.stretch-wide {
 		font-stretch: 125%;
 	}
