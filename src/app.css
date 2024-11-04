@@ -10,7 +10,22 @@
 		font-smooth: always;
 		src: url(/fonts/Hubot-Sans.woff2) format('woff2');
 	}
+	:root {
+		background-color: theme('colors.bgpurp');
+	}
 	html {
 		font-family: 'Hubot Sans', system-ui, sans-serif;
+	}
+	h1 {
+		text-shadow: 0.018em 0.018em theme('colors.sblue');
+	}
+}
+
+@layer utilities {
+	.stretch-thin {
+		font-stretch: 75%;
+	}
+	.stretch-wide {
+		font-stretch: 125%;
 	}
 }
