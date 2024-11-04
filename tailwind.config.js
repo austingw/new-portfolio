@@ -5,16 +5,17 @@ export default {
 		extend: {
 			colors: {
 				bgpurp: '#38182F',
-				cream: '#EEE1B3'
-			},
-			animation: {
-				fade: 'fadeIn 1s ease-in-out'
+				cream: '#EEE1B3',
+				sblue: '#558ABB'
 			},
 
+			animation: {
+				fade: 'fadeUp 1s ease-in-out'
+			},
 			keyframes: {
-				fadeIn: {
-					from: { opacity: 0 },
-					to: { opacity: 1 }
+				fadeUp: {
+					from: { opacity: 0, transform: 'translateY(10vh)' },
+					to: { opacity: 1, transform: 'translateY(0)' }
 				}
 			}
 		}
