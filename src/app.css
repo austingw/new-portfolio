@@ -19,6 +19,9 @@
 	h1 {
 		text-shadow: 0.018em 0.018em theme('colors.sblue');
 	}
+	h2 {
+		text-shadow: 0.06em 0.06em theme('colors.sblue');
+	}
 }
 
 @layer utilities {
