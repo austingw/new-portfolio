@@ -1,5 +1,7 @@
 <script lang="ts">
 	import About from '$lib/components/About.svelte';
+	import Contact from '$lib/components/Contact.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 	import Header from '$lib/components/Header.svelte';
 	import Projects from '$lib/components/Projects.svelte';
 </script>
@@ -8,4 +10,6 @@
 	<Header />
 	<About />
 	<Projects />
+	<Contact />
+	<Footer />
 </div>
