@@ -3,6 +3,6 @@ export type Project = {
 	description: string;
 	techStack: string[];
 	url: string;
-	codeUrl: string;
-	imageUrl: string;
+	repo: string;
+	imageSrc: string;
 };
