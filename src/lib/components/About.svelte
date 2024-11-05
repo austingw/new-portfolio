@@ -5,8 +5,10 @@
 <div class={`flex flex-col items-start justify-start w-full h-full gap-4 animate-fade`}>
 	<h2 class="text-[2em] stretch-wide">About me</h2>
 	<Divider />
-	<div class="grid grid-cols-4 grid-rows-1 w-full gap-2">
-		<div></div>
+	<div
+		class="flex flex-col items-center justify-start md:grid md:grid-cols-3 md:grid-rows-2 w-full gap-4 self-end"
+	>
+		<div class="hidden md:inline"></div>
 		<div>
 			<p class="pb-4">
 				Hi there, I'm Austin Williams, a seasoned Software Developer. From making my first website
@@ -17,16 +19,15 @@
 			</p>
 			<Divider />
 		</div>
-		<div></div>
-		<div>
-			<div class="h-64"></div>
+		<div class="hidden md:inline md:self-end m-0">
 			<Divider />
-			<p class="pt-4">
-				I have years of experience in front-end and backend development, across a variety of
-				languages like Go, Typescript, Python, Java, and Lua. Frameworks and libraries I've used
-				include React, Svelte, Express, Django, and Spring, but I am always interested to picking up
-				something new!
-			</p>
 		</div>
+		<div class="hidden md:inline"></div>
+		<div class="hidden md:inline"></div>
+		<p class="self-start">
+			I have years of experience in front-end and backend development, across a variety of languages
+			like Go, Typescript, Python, Java, and Lua. Frameworks and libraries I've used include React,
+			Svelte, Express, Django, and Spring, but I am always interested to picking up something new!
+		</p>
 	</div>
 </div>
