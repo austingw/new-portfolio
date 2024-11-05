@@ -4,7 +4,7 @@
 
 <div class={`flex flex-col items-start justify-start w-full h-full gap-4 animate-fade`}>
 	<h2 class="text-[2em] stretch-wide">About me</h2>
-	<Divider />
+	<Divider height={4} />
 	<div
 		class="flex flex-col items-center justify-start md:grid md:grid-cols-3 md:grid-rows-2 w-full gap-4 self-end"
 	>
