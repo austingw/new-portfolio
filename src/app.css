@@ -34,4 +34,7 @@
 	.stretch-wide {
 		font-stretch: 125%;
 	}
+	.vert-text {
+		writing-mode: vertical-lr;
+	}
 }
