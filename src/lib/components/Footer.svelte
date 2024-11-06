@@ -4,9 +4,9 @@
 
 <div class={`flex flex-col items-start justify-start w-full h-full gap-4 animate-fade`}>
 	<Bars reverse />
-	<div class="flex flex-row items-start justify-center gap-2 pb-4">
+	<div class="flex flex-col md:flex-row items-start justify-center gap-2 pb-4">
 		<p>© {new Date().getFullYear()} Austin Williams</p>
-		<p>|</p>
+		<p class="hidden md:inline">|</p>
 		<a
 			href="https://github.com/austingw/new-portfolio"
 			target="_blank"
