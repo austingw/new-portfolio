@@ -13,7 +13,7 @@
 			rel="noopener noreferrer"
 			class="text-sblue hover:opacity-70 active:opacity-35"
 		>
-			View this portfolio's code on GitHub
+			Check out the code for my portfolio on GitHub :)
 		</a>
 	</div>
 </div>
