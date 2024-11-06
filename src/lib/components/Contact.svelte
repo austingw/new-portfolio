@@ -11,16 +11,16 @@
 		<input
 			type="text"
 			placeholder="Name"
-			class="w-full p-2 bg-bgpurp border-2 border-cream placeholder:text-cream focus:outline-none"
+			class="w-full p-2 bg-bgpurp border-2 border-cream placeholder:text-cream placeholder:opacity-50 focus:outline-none"
 		/>
 		<input
 			type="email"
 			placeholder="Email"
-			class="w-full p-2 bg-bgpurp border-2 border-cream placeholder:text-cream focus:outline-none"
+			class="w-full p-2 bg-bgpurp border-2 border-cream placeholder:text-cream placeholder:opacity-50 focus:outline-none"
 		/>
 		<textarea
 			placeholder="Message"
-			class="w-full p-2 bg-bgpurp border-2 border-cream placeholder:text-cream focus:outline-none"
+			class="w-full p-2 bg-bgpurp border-2 border-cream placeholder:text-cream placeholder:opacity-50 focus:outline-none"
 		></textarea>
 		<div class="flex flex-row items-center justify-end w-full">
 			<button class="border-2 border-cream py-2 px-8 hover:opacity-70 active:opacity-35">
