@@ -35,6 +35,7 @@
 		font-stretch: 125%;
 	}
 	.vert-text {
-		writing-mode: vertical-lr;
+		transform: translateX(-33%) rotate(90deg);
+		text-shadow: 0.06em -0.06em theme('colors.sblue');
 	}
 }
