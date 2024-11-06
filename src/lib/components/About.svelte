@@ -27,7 +27,7 @@
 		<p class="self-start">
 			I have years of experience in front-end and backend development, across a variety of languages
 			like Go, Typescript, Python, Java, and Lua. Frameworks and libraries I've used include React,
-			Svelte, Express, Django, and Spring, but I am always interested to picking up something new!
+			Svelte, Express, Django, and Spring, but I am always interested in picking up something new!
 		</p>
 	</div>
 </div>
