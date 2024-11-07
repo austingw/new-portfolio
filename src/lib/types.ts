@@ -6,3 +6,9 @@ export type Project = {
 	repo: string;
 	imageSrc: string;
 };
+
+export type Email = {
+	name: string;
+	email: string;
+	message: string;
+};
