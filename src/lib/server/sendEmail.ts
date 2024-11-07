@@ -6,10 +6,10 @@ export default async function sendEmail(data: Email) {
 	await mg.messages
 		.create('mail.freqmob.com', {
 			from: 'Freqmob <fm@mail.freqmob.com>',
-			to: [data.email],
+			to: 'austin@austingw.com',
 			subject: "New Message from austingw.com's Contact Form",
-			text: `${data.name} left you the following message: ${data.message}`,
-			html: `<p>${data.name} left you the following message: ${data.message}</p>`
+			text: `${data.name} (${data.email}) left you the following message: ${data.message}`,
+			html: `<p>${data.name} (${data.email}) left you the following message: ${data.message}</p>`
 		})
 		.then(() => {
 			res = true;
