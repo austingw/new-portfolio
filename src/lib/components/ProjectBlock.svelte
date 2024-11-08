@@ -31,7 +31,7 @@
 			{#if project.repo.length > 0}
 				<div class="flex flex-row items-start justify-center gap-1 text-sblue">
 					<a
-						href={project.url}
+						href={project.repo}
 						target="_blank"
 						rel="noopener noreferrer"
 						class="hover:opacity-70 active:opacity-35"
