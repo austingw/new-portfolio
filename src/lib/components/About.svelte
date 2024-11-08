@@ -11,11 +11,10 @@
 		<div class="hidden md:inline"></div>
 		<div>
 			<p class="pb-4">
-				Hi there, I'm Austin Williams, a seasoned Software Developer. From making my first website
-				in middle school to learning how to wire guitar electronics last weekend, I've always had a
-				passion for learning, DIY, and solving problems. I love software development, because it
-				gives me the opportunity to use those passions to make engaging, feature-rich applications
-				that positively impact users.
+				Hi there, I'm Austin Williams, a seasoned Software Developer. From building my first website
+				in middle school to wiring guitar electronics last weekend, I've always had a passion for
+				learning and DIY. I love being a software developer because it allows me to channel this
+				drive into creating applications that positively impact users.
 			</p>
 			<Divider />
 		</div>
@@ -25,10 +24,10 @@
 		<div class="hidden md:inline"></div>
 		<div class="hidden md:inline"></div>
 		<p class="self-start">
-			I have years of experience in front-end and backend development, across a variety of languages
-			like Go, Typescript, Python, Java, and Lua, along with frameworks like Next.js, Svelte,
-			Express, Django, and Spring. That being said, I am always looking to learn something new and
-			expand my repertoire!
+			I have extensive experience in front-end and backend development, working with languages like
+			Go, Typescript, Python, Java, and Lua, along with frameworks like Next.js, Svelte, Express,
+			Django, and Spring. However, I am always looking to learn something new and expand my
+			repertoire!
 		</p>
 	</div>
 </div>
