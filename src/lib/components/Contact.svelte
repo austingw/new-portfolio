@@ -23,27 +23,33 @@
 			setTimeout(() => {
 				showNotification = false;
 			}, 5000);
+			return;
 		}
 
-		// if (!validate.success) {
-		// 	notifications = validate.error.errors;
-		// 	showNotification = true;
-		// 	setTimeout(() => {
-		// 		showNotification = false;
-		// 	}, 5000);
-		// 	return;
-		// }
-		//
-		// const response = await fetch('/api', {
-		// 	method: 'POST',
-		// 	body: JSON.stringify(contact),
-		// 	headers: {
-		// 		'content-type': 'application/json'
-		// 	}
-		// });
-		//
-		// const res = await response.json();
-		// console.log(res);
+		const response = await fetch('/api', {
+			method: 'POST',
+			body: JSON.stringify(contact),
+			headers: {
+				'content-type': 'application/json'
+			}
+		});
+
+		const { success } = await response.json();
+		if (success) {
+			notifications = ['Email sent successfully!'];
+			showNotification = true;
+			setTimeout(() => {
+				showNotification = false;
+			}, 5000);
+			contact = { name: '', email: '', message: '' };
+		} else {
+			notifications = ['Email attempt failed.', 'Please try again later.'];
+			showNotification = true;
+			setTimeout(() => {
+				showNotification = false;
+			}, 5000);
+			contact = { name: '', email: '', message: '' };
+		}
 	}
 </script>
 
@@ -80,7 +86,7 @@
 		</div>
 		{#if showNotification}
 			<div
-				class="border-2 bg-cream text-bgpurp border-bgpurp w-fit h-fit absolute bottom-0 right-0 p-2 animate-fade"
+				class="flex flex-col items-start justify-center border-2 bg-cream text-bgpurp border-bgpurp w-fit h-fit absolute bottom-0 right-0 p-2 animate-fade"
 			>
 				{#each notifications as n}
 					<p>{n}</p>
