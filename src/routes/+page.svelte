@@ -6,7 +6,7 @@
 	import Projects from '$lib/components/Projects.svelte';
 </script>
 
-<div class={`flex flex-col items-center justify-start w-full h-full px-8 gap-4 animate-fade`}>
+<div class={`flex flex-col items-center justify-start w-full h-full px-8 gap-4`}>
 	<Header />
 	<About />
 	<Projects />
