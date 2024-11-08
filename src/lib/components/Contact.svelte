@@ -26,23 +26,32 @@
 			return;
 		}
 
-		const response = await fetch('/api', {
-			method: 'POST',
-			body: JSON.stringify(contact),
-			headers: {
-				'content-type': 'application/json'
-			}
-		});
+		try {
+			const response = await fetch('/api', {
+				method: 'POST',
+				body: JSON.stringify(contact),
+				headers: {
+					'content-type': 'application/json'
+				}
+			});
 
-		const { success } = await response.json();
-		if (success) {
-			notifications = ['Email sent successfully!'];
-			showNotification = true;
-			setTimeout(() => {
-				showNotification = false;
-			}, 5000);
-			contact = { name: '', email: '', message: '' };
-		} else {
+			const { success } = await response.json();
+			if (success) {
+				notifications = ['Email sent successfully!'];
+				showNotification = true;
+				setTimeout(() => {
+					showNotification = false;
+				}, 5000);
+				contact = { name: '', email: '', message: '' };
+			} else {
+				notifications = ['Email attempt failed.', 'Please try again later.'];
+				showNotification = true;
+				setTimeout(() => {
+					showNotification = false;
+				}, 5000);
+				contact = { name: '', email: '', message: '' };
+			}
+		} catch {
 			notifications = ['Email attempt failed.', 'Please try again later.'];
 			showNotification = true;
 			setTimeout(() => {
