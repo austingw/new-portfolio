@@ -13,8 +13,8 @@
 			<p class="pb-4">
 				Hi there, I'm Austin Williams, a seasoned Software Developer. From building my first website
 				in middle school to wiring guitar electronics last weekend, I've always had a passion for
-				learning and DIY. I love being a software developer because it allows me to channel this
-				drive into creating applications that positively impact users.
+				research and DIY. I love software development because it allows me to channel this drive
+				into creating innovative applications that impact users.
 			</p>
 			<Divider />
 		</div>
@@ -26,7 +26,7 @@
 		<p class="self-start">
 			I have extensive experience in front-end and backend development, working with languages like
 			Go, Typescript, Python, Java, and Lua, along with frameworks like Next.js, Svelte, Express,
-			Django, and Spring. However, I am always looking to learn something new and expand my
+			Django, and Spring. That being said, I am always looking to learn something new and expand my
 			repertoire!
 		</p>
 	</div>
