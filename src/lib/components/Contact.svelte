@@ -66,7 +66,7 @@
 	<Divider height={1} />
 	<h2 class="text-[2em] stretch-wide">Contact</h2>
 	<Divider height={4} />
-	<p>Please feel free to contact me via the form below.</p>
+	<p>Please feel free to reach out to me via the form below.</p>
 	<div class="relative flex flex-col items-start justify-center w-full gap-4">
 		<input
 			bind:value={contact.name}
