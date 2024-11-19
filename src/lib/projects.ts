@@ -19,10 +19,10 @@ const projects: Project[] = [
 	},
 	{
 		title: 'Reqord',
-		description: `Postman-like CLI tool for making HTTP requests. Reqord allows you to save and organize requests for FAST recall from your terminal per project.`,
-		techStack: ['Go', 'Cobra'],
+		description: `Sleek + speedy Postman-like API development tool for your terminal. Reqord allows you to save and organize HTTP requests for FAST recall and iteration.`,
+		techStack: ['Go', 'Cobra', 'Viper', 'Bubbletea'],
 		url: '',
-		repo: '',
+		repo: 'https://github.com/austingw/reqord',
 		imageSrc: ''
 	},
 	{
