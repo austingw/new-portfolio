@@ -11,7 +11,7 @@ const projects: Project[] = [
 	},
 	{
 		title: 'Worduel',
-		description: `A competitive, multiplayer word game inspired by Wordle. Players can create or join a room in the lobby and then race to guess a 5-letter word in real-time. Live messages update each player on their opponents progress.`,
+		description: `A competitive, multiplayer word game inspired by Wordle. Players can create or join a room in the lobby and then race to guess a 5-letter word in real-time. Live messages update each player on their opponent's progress.`,
 		techStack: ['Go', 'Svelte', 'Tanstack Query', 'Tailwind', 'Websockets'],
 		url: 'https://worduel.austingw.com',
 		repo: 'https://github.com/austingw/worduel',
