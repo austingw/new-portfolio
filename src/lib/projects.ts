@@ -18,7 +18,7 @@ const projects: Project[] = [
 		imageSrc: ''
 	},
 	{
-		title: 'Reqord',
+		title: 'Reqord (WIP)',
 		description: `Sleek + speedy Postman-like API development tool for your terminal. Reqord allows you to save and organize HTTP requests for FAST recall and iteration.`,
 		techStack: ['Go', 'Cobra', 'Viper', 'Bubbletea'],
 		url: '',
